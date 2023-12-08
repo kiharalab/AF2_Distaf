@@ -290,7 +290,7 @@ class AlphaFold(hk.Module):
       is_training,
       compute_loss=False,
       ensemble_representations=False,
-      return_representations=False):
+      return_representations=True):
     """Run the AlphaFold model.
 
     Arguments:
