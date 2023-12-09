@@ -421,7 +421,7 @@ class AlphaFold(hk.Module):
       self,
       batch,
       is_training,
-      return_representations=False,
+      return_representations=True,
       safe_key=None):
 
     c = self.config
