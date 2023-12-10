@@ -515,9 +515,9 @@ class AlphaFold(hk.Module):
 
     # Run extra iteration.
     ret = apply_network(prev=prev, safe_key=safe_key)
-    print(return_representations)
-    if not return_representations:
-      del ret['representations']
+    # print(return_representations)
+    # if not return_representations:
+    #   del ret['representations']
     ret['num_recycles'] = num_recycles
 
     return ret
