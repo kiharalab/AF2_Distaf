@@ -1,7 +1,7 @@
 absl-py==1.0.0
 biopython==1.79
 chex==0.0.7
-dm-haiku==^0.0.12
+dm-haiku==0.0.12
 dm-tree==0.1.8
 docker==5.0.0
 immutabledict==2.0.0
